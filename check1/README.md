@@ -1,6 +1,5 @@
 # Urban Dictionary
 Create 3 files that has 3 different classes that does the following:
-
   * Hold a static associated array of urban words
   * Implement CRUD
   * Implement a ranking system
