@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<phpunit bootstrap="./vendor/autoload.php">
+
+    <testsuites>
+        <testsuite name="check1">
+        	<file>tests/SlangWordTest.php</file>
+        	<file>tests/CrudWordTest.php</file>
+        	<file>tests/GroupRankTest.php</file>
+        </testsuite>
+    </testsuites>
+
+</phpunit>
