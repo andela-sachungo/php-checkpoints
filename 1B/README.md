@@ -19,5 +19,3 @@ Run the tests on the tests folder by running `phpunit`
 
 ## More on PHPUnit
 Compose a test suite in the root folder using xml configuration as explained in [PHPUnit website](https://phpunit.de/manual/current/en/organizing-tests.html#organizing-tests.xml-configuration)
-
-Then to run the tests, type `phpunit` in the command line
