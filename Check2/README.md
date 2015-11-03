@@ -1,24 +1,17 @@
 # Potato ORM
-Build a simple ORM that can perform the basic CRUD database operations.
+A simple agnostic ORM that can perform the basic crud database operations.
+To use the ORM, extend the Model Class and *ensure you have MySQL installed*.
 
 ## How to use it
-Download and set up vagrant and Homestead in your machine
+* Create a database in MySQL before using the Potato ORM
+* Clone the repository: `git clone <Repository Link>`
+* Change the database connection parameters in `tests/` accordingly
+* Run `composer install` to install phpunit and autoload the files
+* Create a class which extends the Model class and set a table name using the setter.
+  * If you do not assign a table name the name of the class in lowercase will be used
+* Run the tests on the `tests/` folder by running `phpunit` 
+* You can change the testing table fields in the `tests/DbSettingTest.php` file as well as
+the other tests to your liking.
 
-Create a database in the MySQL Monitor - accessed via vagrant
 
-Check if the database has been created by running `show databases;`
 
-Open a new terminal window
-
-Clone the repository : `git clone <Repository Link>`
-
-Go to back to the MySQL Monitor and create the actual table by running
-  `source full/path/to/car-sql.sql`
-
-To check if the table created is correct, run `DESC table_name;`
-
-Open a new terminal window and change directory to that with the `/Homestead` folder
-
-Run `vagrant ssh` and change directory to `/../checkpoint2`
-
-Run the tests on the `/tests` folder by running `phpunit` in vagrant

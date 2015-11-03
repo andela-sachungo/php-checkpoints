@@ -1,6 +1,6 @@
-<?php
+<?php 
 
-namespace Stacey\Potato\Config;
+namespace Stacey\Potato;
 
 /**
 * A class that sets up PDO to throw an exception by default should an error 

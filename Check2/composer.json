@@ -1,10 +1,12 @@
 {
 	"autoload": {
 		"psr-4": {
-			"Stacey\\Potato\\": "src"
+			"Stacey\\Potato\\": "src",
+			"Stacey\\Potatotests\\": "tests"
 		}
 	},
 	"require-dev": {
-	"phpunit/phpunit": "4.8.*"
+	"phpunit/phpunit": "4.8.*",
+	"phpunit/dbunit": ">=1.2"
 	}
 }
