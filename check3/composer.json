@@ -1,0 +1,24 @@
+{
+    "require": {
+        "slim/slim": "^2.6",
+        "illuminate/database": "^5.1",
+        "illuminate/filesystem": "^5.1",
+        "symfony/var-dumper": "^2.7",
+        "firebase/php-jwt": "^3.0",
+        "phpunit/phpunit": "4.8.*",
+        "guzzlehttp/guzzle": "^6.1",
+        "vlucas/phpdotenv": "~2.1"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Stacey\\Emoji\\Model\\": "models",
+            "Stacey\\Emoji\\FunctionsDir\\": "functions",
+            "Stacey\\Emoji\\Test\\": "tests"
+        },
+        "files": [
+            "config/database.php",
+            "tables/table.php"
+        ]
+    }
+}
