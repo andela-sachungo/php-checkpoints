@@ -13,12 +13,12 @@
     "autoload": {
         "psr-4": {
             "Stacey\\Emoji\\Model\\": "models",
-            "Stacey\\Emoji\\FunctionsDir\\": "functions",
+            "Stacey\\Emoji\\FunctionsDir\\": "utilities",
             "Stacey\\Emoji\\Test\\": "tests"
         },
         "files": [
             "config/database.php",
-            "tables/table.php"
+            "migrations/table.php"
         ]
     }
 }

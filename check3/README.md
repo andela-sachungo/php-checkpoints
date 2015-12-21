@@ -14,7 +14,7 @@ A simple RESTful API built using Slim Framework for an Emoji Service
 * Run `composer install` to install dependencies
 
 ##Server Information
-You can use **Vagrant** virtual machine or set up a server using **Apache 2**
+You can use [Vagrant virtual machine](http://laravel.com/docs/5.1/homestead) or set up a server using [Apache 2](http://php.net/manual/en/features.commandline.webserver.php).
 
 ####Using Vagrant
 Implement the following after you have installed and set up vagrant:
@@ -35,7 +35,8 @@ Implement the following after you have installed and set up vagrant:
 To use the in-built php server, follow this steps:
   * Run ` php -S <addr>:<port> [-t docroot]` e.g. `php -S localhost:3000 -t path/to/public directory`
   * Open another terminal tab and navigate to `check3`
-  * Run `phpunit`
+  * Run `phpunit`.
+
 **NOTE:** Ensure that you create the database according to the details in `.env` before you run `phpunit`. `.htaccess` has already been created for you.
 
 ##Testing the API
